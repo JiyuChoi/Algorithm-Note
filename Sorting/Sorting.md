@@ -41,7 +41,7 @@ array = [7,5,9,0,3,1,6,2,4,8]
 def quick_sort(array):
   # 리스트가 하나 이하의 원소만을 담고 있다면 종료
   if len(array) <= 1:
-      return
+      return array
   
   pivot = array[0]
   tail = array[1:]
@@ -69,6 +69,4 @@ for i in range(len(array)):
 for i in range(len(count)):
   for j in range(count[i]):
       print(i, end=" ")
-```
-
 ```
